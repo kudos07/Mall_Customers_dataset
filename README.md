@@ -38,23 +38,23 @@ This project applies **unsupervised clustering** to the Mall Customer Segmentati
 Based on the data, five distinct customer segments emerged:
 
 - **Cluster 0: Premium Spenders**  
-  - Age ~33, high income (~$86k), very high spending score (~82)  
+  - Age ≈ 33, high income (≈ $86k), very high spending score (≈ 82)  
   - ✅ *Strategy*: Loyalty programs, VIP perks, exclusive memberships
 
 - **Cluster 1: Budget-Conscious Older Adults**  
-  - Age ~55, modest income (~$48k), low spending score (~42)  
+  - Age ≈ 55, modest income (≈ $48k), low spending score (≈ 42)  
   - ✅ *Strategy*: Maintain with essential offers, avoid heavy promotional costs
 
 - **Cluster 2: Young Value Seekers**  
-  - Age ~25, low income (~$26k), high spending score (~79)  
+  - Age ≈ 25, low income (≈ $26k), high spending score (≈ 79)  
   - ✅ *Strategy*: Student/young professional discounts, trendy promotions
 
 - **Cluster 3: Affluent but Reserved**  
-  - Age ~41, high income (~$88k), very low spending score (~17)  
+  - Age ≈ 41, high income (≈ $88k), very low spending score (≈ 17)  
   - ✅ *Strategy*: Upselling, personalized marketing, premium experiences
 
 - **Cluster 4: Mid-tier Regulars**  
-  - Age ~28, moderate income (~$50k), mid spending score (~45)  
+  - Age ≈ 28, moderate income (≈ $50k), mid spending score (≈ 45)  
   - ✅ *Strategy*: Encourage higher engagement with bundles & cross-selling
 
 ---
@@ -63,9 +63,6 @@ Based on the data, five distinct customer segments emerged:
 
 ### Elbow Method (K vs Inertia)
 ![Elbow Plot](./clustering_outputs_k5/elbow.png)
-
-### Silhouette Analysis
-![Silhouette Plot](./clustering_outputs_k5/silhouette.png)
 
 ### PCA Scatter Plot (2D view of clusters)
 ![PCA Scatter](./clustering_outputs_k5/pca_scatter.png)
